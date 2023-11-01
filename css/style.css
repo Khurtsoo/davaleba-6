@@ -1,5 +1,5 @@
 body {
-	height: 10000px;
+	height: 1000px;
 }
 
 
@@ -143,4 +143,41 @@ div.parent-3 {
 }
 .room {
 	display: inline-block;
+}
+.game-position-relative {
+	position: relative;
+	width: 1440px;
+	height: 201px;
+	background: #243043;
+}
+.children19-absolute {
+	position: absolute;
+	width: 38px;
+	height: 40px;
+	margin-left: 1150px;
+	margin-top: 70px;
+}
+.toy {
+	width: 33px;
+	height: 14px;
+	top: 1088px;
+	left: -583px;
+
+	color: #818687;
+}
+.toy_2 {
+	width: 30px;
+    margin-top: -15px;
+    margin-left: 150px;
+	color: #818687;
+}
+.toy_3 {
+	width: 30px;
+	margin-left: 300px;
+    margin-top: -140px;
+}
+.toy_5 {
+	margin-left: 550px;
+    margin-top: -60px;
+    color: #FFFFFF;
 }
