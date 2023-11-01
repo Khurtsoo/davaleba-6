@@ -1,3 +1,8 @@
+body {
+	height: 10000px;
+}
+
+
 li {
 	color: #000000;
 	display: inline-block;
@@ -29,4 +34,113 @@ ul {
 	display: inline-block;
 	margin-left: 60px;
 	margin-top: 20px;
+}
+div {
+	display: inline-block;
+}
+h1 {
+	font-size: 24px;
+	width: 120px;
+	height: 28px;
+	margin-top: 20px;
+	margin-left: 50px;
+	color: #000000;
+}
+div.parent-relative {
+	position: relative;
+	width: 362px;
+	height: 357px;
+	top: 30px;
+	margin-left: 10px;
+}
+p.child-absolute {
+	position: absolute;
+	top: 32px;
+	left: 42px;
+	color: #FFFFFF;
+}
+.tag-1 {
+	background: #FFFFFF;
+}
+.tag-2 {
+	color: #8A8787;
+	width: 238px;
+	height: 36px;
+	margin-top: 10px;
+	margin-left: 26px;
+} 
+.picture-2 {
+	
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.tag-3 {
+	margin-left: 10px;
+	color: #8A8787;
+	display: inline-block;
+}
+div.par-relative {
+	position: relative;
+	width: 362px;
+	height: 357px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+p.kid-absolute {
+	position: absolute;
+	color: #FFFFFF;
+	margin-top: -142px;
+	margin-left: 42px;
+}
+div.paren4-relative {
+	position: relative;
+	width: 362px;
+	height: 357px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+p.children-absolute {
+	position: absolute;
+	color: #FFFFFF;
+	margin-top: -142px;
+	margin-left: 42px;
+}
+h2 {
+	width: 196px;
+	height: 28px;
+	color: #000000;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+div.parent2-relative {
+	position: relative;
+	top: 30px;
+	margin-left: 10px;
+	display: inline-block;
+}
+p.kid8-absolute {
+	position: absolute;
+	color: #FFFFFF;
+	margin-top: -220px;
+    margin-left: 270px;
+}
+
+div.parent-3 {
+	margin-top: 30px;
+}
+.some1 {
+
+}
+.some2 {
+	display: inline-block;
+	margin-top: 20px;
+	
+}
+.something {
+	display: inline-block;
+}
+.room {
+	display: inline-block;
 }
